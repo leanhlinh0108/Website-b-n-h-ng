@@ -1,0 +1,4 @@
+{
+    "dart.devToolsBrowser": "chrome",
+    "liveServer.settings.CustomBrowser": "chrome"
+}

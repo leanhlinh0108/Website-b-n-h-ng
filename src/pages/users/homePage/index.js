@@ -1,7 +1,7 @@
-import React, { memo } from 'react'
+import { memo } from 'react'
 
 
-const Homepage = () =>{
+const HomePage = () =>{
     return <h1>áđâsđá</h1>
-}
-export default memo(Homepage);
+};
+export default memo(HomePage);
