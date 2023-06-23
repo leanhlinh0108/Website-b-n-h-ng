@@ -1,12 +1,9 @@
-import { BrowserRouter } from 'react-router-dom';
-import HomePage from './pages/users/homePage';
-import RouterCustom from './router';
+import { BrowserRouter, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      <RouterCustom/>
-      </BrowserRouter>
+     <Navbar></Navbar>
     </div>
   );
 }
