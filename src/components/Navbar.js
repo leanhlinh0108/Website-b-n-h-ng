@@ -16,10 +16,9 @@ class Navbar extends Component{
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
-                <div>
-                </div>
-
-                <ul className="nav-menu">
+                
+                {/* // calss ko để dấu chấm,js ko nhận */}
+                <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}> 
                     {
                         // tạo component menuitems để dùng các button item linh động theo map
                         MenuItems.map((item,index)=>{

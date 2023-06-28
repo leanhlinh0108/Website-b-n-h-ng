@@ -30,9 +30,5 @@ export const MenuItems = [
         icon : "fa-solid fa-address-book"
     },
     
-    {
-        title : "Đăng nhập",
-        url : "/signup",
-        cName : "nav-links-mobile",
-    },
+   
 ]
