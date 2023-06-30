@@ -22,7 +22,6 @@
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(7 ,auto);
-    grid-gap: 10px;
     list-style: none;
     align-items: center;
     padding-left: 10px;
@@ -65,7 +64,7 @@ button:hover{
     display: none;
     cursor: pointer;
 }
-/* tablet */
+/* desktop */
 @media screen and (max-width :1050px){
     .NavbarItems{
         z-index: 99;
@@ -132,7 +131,7 @@ button:hover{
     }
 }
 
-/* mobile */
+/* mobile, tablet*/
 @media screen and (max-width :850px){
     .NavbarItems{
         z-index: 99;
