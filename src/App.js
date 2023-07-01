@@ -5,9 +5,12 @@ import About from './routes/about';
 import Service from './routes/service';
 import Contact from './routes/contact';
 import News from './routes/news';
+import Demo from './components/demo';
+
 function App() {
   return (
     <div className="App">
+      <Demo></Demo>
        <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/service" element={<Service/>}/>

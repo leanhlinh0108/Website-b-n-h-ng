@@ -11,7 +11,9 @@ class Navbar extends Component {
   };
   render() {
     return (
+      
       <nav className="NavbarItems">
+        
         <h1 className="navbar-logo">Đông Trang</h1>
         <div className="menu-icons" onClick={this.handleClick}>
           <i

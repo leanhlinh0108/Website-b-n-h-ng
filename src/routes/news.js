@@ -1,7 +1,10 @@
+import Navbar from "../components/Navbar";
+
 function News(){
     return(
         <>
-        <h1>anbsdasdasdksjad</h1>
+               <Navbar></Navbar>
+
         </>
     )
 }
